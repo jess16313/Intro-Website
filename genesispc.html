@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dance Crew Selection</title>
+<link rel="stylesheet" href="danceselection.css">
+</head>
+<body>
+<h1>Dance Crew Selection Tool</h1>
+<form id="selectionForm">
+    <label for="rolesNeeded">Number of Roles Needed:</label>
+    <input type="number" id="rolesNeeded" name="rolesNeeded" required><br><br>
+    <div id="memberInputs">
+        <!-- Member inputs will be added here -->
+    </div>
+    <button type="button" onclick="addMemberInput()">Add Member</button><br><br>
+    <input type="submit" value="Calculate Needed Dancers">
+</form>
+<div id="results"></div>
+
+<script src="dancerpickercode.js"></script>
+</body>
+</html>
