@@ -1,6 +1,6 @@
 body {
     background-color: rebeccapurple;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 20px;
 }
 
@@ -12,21 +12,26 @@ input[type="number"], input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #DF99FC;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #D590F1;
 }
 
 input[type="submit"] {
     padding: 10px 20px;
-    background-color: #008CBA;
+    background-color: #420E58;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #007ba7;
+    background-color: #360949;
+}
+
+#logo {
+    width: 100px;  /* Adjust width as needed */
+    height: auto;  /* Keeps the aspect ratio of the image */
 }
