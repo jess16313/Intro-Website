@@ -1,3 +1,10 @@
+document.getElementById('selectionForm').addEventListener('keypress', function(event) {
+    if (event.keyCode === 13) {  // 13 is the keycode for the Enter key
+        event.preventDefault();  // Stop form submission
+        return false;
+    }
+});
+
 document.getElementById('selectionForm').onsubmit = function(event) {
     event.preventDefault();
     const rolesNeeded = parseInt(document.getElementById('rolesNeeded').value);
@@ -16,6 +23,13 @@ document.getElementById('selectionForm').onsubmit = function(event) {
     const selectedMembers = selectDancers(candidates, rolesNeeded);
     document.getElementById('results').innerText = `Selected Dancer(s): ${selectedMembers.join(', ')}`;
 };
+
+function resetForm() {
+    // Reset form inputs or any other elements that need resetting
+    document.getElementById('selectionForm').reset();
+    document.getElementById('results').innerText = '';
+    document.getElementById('resetButton').style.display = 'none'; // Hide the reset button again
+}
 
 function addMemberInput() {
     const memberDiv = document.createElement('div');
