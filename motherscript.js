@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             switch(name) {
                 case 'mima':
-                    videoUrl = 'mima_video_url';
+                    videoUrl = 'https://drive.google.com/file/d/1ZV1apGK83CUreN-oz7DANMj8TFR8ftyR/view?usp=sharing';
                     break;
                 case 'edamommy':
                     videoUrl = 'edamommy_video_url';
