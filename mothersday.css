@@ -1,0 +1,23 @@
+body {
+	background-color: #DFC3E2;
+	font-family: Trebuchet MS, sans-serif;
+	Margin: 20px;
+}
+
+.video-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-btn:not(:hover) {
+    background-color: #633B68; /* Default color for buttons */
+}
+
+.video-btn:hover {
+    background-color: #39223B; /* Change to a different color when hovered */
+}
+
