@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const name = this.previousElementSibling.alt.toLowerCase(); // Get the name of the person from the alt attribute
             let videoUrl;
 
-            // Determine the video URL based on the person's name
             switch(name) {
                 case 'mima':
                     videoUrl = 'mima_video_url';
@@ -21,10 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     videoUrl = 'bri_bri_video_url';
                     break;
                 default:
-                    videoUrl = 'default_video_url'; // Provide a default video URL
-            }
+                    videoUrl = 'default_video_url'; }
 
-            // Open the video URL in a new tab
             window.open(videoUrl, '_blank');
         });
     });

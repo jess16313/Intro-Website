@@ -4,20 +4,37 @@ body {
 	Margin: 20px;
 }
 
-.video-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
 }
 
-.video-btn:not(:hover) {
-    background-color: #633B68; /* Default color for buttons */
+.person {
+    text-align: center; 
+    width: 200px;
+}
+
+.person img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.video-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #AD48B8;
+    color: white;
+    width: 100%; 
 }
 
 .video-btn:hover {
-    background-color: #39223B; /* Change to a different color when hovered */
+    background-color: #8D3897;
 }
-
