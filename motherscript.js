@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             switch(name) {
                 case 'mima':
-                    videoUrl = 'https://drive.google.com/file/d/1ZV1apGK83CUreN-oz7DANMj8TFR8ftyR/view?usp=sharing';
+                    videoUrl = 'https://youtu.be/P8J_x2FWkBQ';
                     break;
                 case 'edamommy':
                     videoUrl = 'edamommy_video_url';
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     videoUrl = 'nana_video_url';
                     break;
                 case 'bri-bri':
-                    videoUrl = 'bri_bri_video_url';
+                    videoUrl = 'https://youtu.be/6hTklseZMpk';
                     break;
                 default:
                     videoUrl = 'default_video_url'; }
