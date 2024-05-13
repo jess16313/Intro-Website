@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     videoUrl = 'https://youtu.be/P8J_x2FWkBQ';
                     break;
                 case 'edamommy':
-                    videoUrl = 'edamommy_video_url';
+                    videoUrl = 'https://youtu.be/JiwZL-yUdnQ';
                     break;
                 case 'nana':
-                    videoUrl = 'nana_video_url';
+                    videoUrl = 'https://youtu.be/8c20uIMzTOA';
                     break;
                 case 'bri-bri':
                     videoUrl = 'https://youtu.be/6hTklseZMpk';
